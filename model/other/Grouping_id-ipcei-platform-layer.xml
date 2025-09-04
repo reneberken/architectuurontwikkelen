@@ -1,0 +1,5 @@
+<archimate:Grouping
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Platform Layer"
+    id="id-ipcei-platform-layer"
+    documentation="The platform services layer providing development frameworks, runtime environments, databases, and middleware services. This layer abstracts infrastructure complexity and offers Platform-as-a-Service (PaaS) capabilities including development tools, API management, data services, and integration platforms that accelerate application development while maintaining European digital sovereignty."/>

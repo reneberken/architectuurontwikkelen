@@ -1,0 +1,224 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IPCEI-CIS Reference Architecture Overview"
+    id="id-ipcei-cis-overview">
+  
+  <!-- Infrastructure Layer Grouping -->
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-infra-layer-group"
+      name="Infrastructure Layer"
+      textAlignment="1">
+    <bounds
+        x="50"
+        y="400"
+        width="900"
+        height="120"/>
+    
+    <!-- Compute Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-compute-obj">
+      <bounds
+          x="20"
+          y="30"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-compute-services.xml#id-ipcei-compute-services"/>
+    </children>
+    
+    <!-- Storage Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-storage-obj">
+      <bounds
+          x="170"
+          y="30"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-storage-services.xml#id-ipcei-storage-services"/>
+    </children>
+    
+    <!-- Network Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-network-obj">
+      <bounds
+          x="320"
+          y="30"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-network-services.xml#id-ipcei-network-services"/>
+    </children>
+    
+    <!-- Security & Identity Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-security-obj">
+      <bounds
+          x="470"
+          y="30"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-security-identity.xml#id-ipcei-security-identity"/>
+    </children>
+    
+    <!-- Sustainability -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-sustainability-obj">
+      <bounds
+          x="620"
+          y="30"
+          width="130"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-sustainability.xml#id-ipcei-sustainability"/>
+    </children>
+  </children>
+  
+  <!-- Platform Layer Grouping -->
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-platform-layer-group"
+      name="Platform Layer"
+      textAlignment="1">
+    <bounds
+        x="50"
+        y="250"
+        width="900"
+        height="120"/>
+    
+    <!-- Platform Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-platform-services-obj">
+      <bounds
+          x="20"
+          y="30"
+          width="150"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-platform-services.xml#id-ipcei-platform-services"/>
+    </children>
+    
+    <!-- Data Analytics & AI Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-data-ai-obj">
+      <bounds
+          x="190"
+          y="30"
+          width="170"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-data-analytics-ai.xml#id-ipcei-data-analytics-ai"/>
+    </children>
+    
+    <!-- Edge Computing Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-edge-obj">
+      <bounds
+          x="380"
+          y="30"
+          width="150"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-edge-computing.xml#id-ipcei-edge-computing"/>
+    </children>
+    
+    <!-- Quantum Computing Services -->
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-quantum-obj">
+      <bounds
+          x="550"
+          y="30"
+          width="170"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:Capability"
+          href="Capability_id-ipcei-quantum-computing.xml#id-ipcei-quantum-computing"/>
+    </children>
+  </children>
+  
+  <!-- Application Layer Grouping -->
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-application-layer-group"
+      name="Application Layer"
+      textAlignment="1">
+    <bounds
+        x="50"
+        y="100"
+        width="900"
+        height="120"/>
+    
+    <!-- Placeholder for Application Services -->
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-app-note">
+      <bounds
+          x="20"
+          y="30"
+          width="300"
+          height="60"/>
+      <content>European SaaS Applications and Industry-Specific Solutions</content>
+    </children>
+  </children>
+  
+  <!-- Cross-cutting Domains -->
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-sec-governance-obj">
+    <bounds
+        x="1000"
+        y="150"
+        width="160"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-security-governance.xml#id-ipcei-security-governance"/>
+  </children>
+  
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-data-analytics-domain-obj">
+    <bounds
+        x="1000"
+        y="250"
+        width="160"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-data-analytics.xml#id-ipcei-data-analytics"/>
+  </children>
+  
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-edge-quantum-domain-obj">
+    <bounds
+        x="1000"
+        y="350"
+        width="160"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-edge-quantum.xml#id-ipcei-edge-quantum"/>
+  </children>
+  
+</archimate:ArchimateDiagramModel>

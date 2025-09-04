@@ -1,0 +1,99 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IPCEI-CIS Architecture Layers and Domains"
+    id="id-ipcei-cis-domains">
+  
+  <!-- Architectural Layers -->
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-layer-application">
+    <bounds
+        x="100"
+        y="50"
+        width="400"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-application-layer.xml#id-ipcei-application-layer"/>
+  </children>
+  
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-layer-platform">
+    <bounds
+        x="100"
+        y="150"
+        width="400"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-platform-layer.xml#id-ipcei-platform-layer"/>
+  </children>
+  
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-layer-infrastructure">
+    <bounds
+        x="100"
+        y="250"
+        width="400"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-infrastructure-layer.xml#id-ipcei-infrastructure-layer"/>
+  </children>
+  
+  <!-- Cross-cutting Domains -->
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-domain-security">
+    <bounds
+        x="550"
+        y="50"
+        width="200"
+        height="100"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-security-governance.xml#id-ipcei-security-governance"/>
+  </children>
+  
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-domain-data">
+    <bounds
+        x="550"
+        y="170"
+        width="200"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-data-analytics.xml#id-ipcei-data-analytics"/>
+  </children>
+  
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-domain-edge-quantum">
+    <bounds
+        x="550"
+        y="270"
+        width="200"
+        height="80"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ipcei-edge-quantum.xml#id-ipcei-edge-quantum"/>
+  </children>
+  
+  <!-- Additional explanatory note -->
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-note-explanation">
+    <bounds
+        x="100"
+        y="370"
+        width="650"
+        height="80"/>
+    <content>IPCEI-CIS Reference Architecture: Layers represent horizontal service tiers, while domains represent cross-cutting capabilities that span multiple layers. This architecture ensures European digital sovereignty while enabling innovation and interoperability.</content>
+  </children>
+  
+</archimate:ArchimateDiagramModel>

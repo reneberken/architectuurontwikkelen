@@ -1,0 +1,5 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Network Services"
+    id="id-ipcei-network-services"
+    documentation="Advanced networking capabilities including software-defined networking (SDN), load balancing, content delivery networks (CDN), VPN services, and secure interconnectivity between European cloud regions. Ensures low-latency, high-bandwidth connectivity with enhanced security and traffic management."/>

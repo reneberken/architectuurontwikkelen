@@ -1,5 +1,0 @@
-<archimate:Grouping
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Infrastructure Layer"
-    id="id-ipcei-infrastructure-layer"
-    documentation="The foundational infrastructure layer providing physical and virtualized compute, storage, and network resources across European data centers. This layer includes hardware resources, hypervisors, container orchestration platforms, and basic infrastructure services that enable higher-level cloud services while ensuring data sovereignty and regulatory compliance."/>

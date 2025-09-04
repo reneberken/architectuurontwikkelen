@@ -1,5 +1,0 @@
-<archimate:Grouping
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Security & Governance Domain"
-    id="id-ipcei-security-governance"
-    documentation="Cross-cutting security and governance domain ensuring consistent security policies, identity management, compliance monitoring, and risk management across all layers of the IPCEI-CIS architecture. This domain enforces European data protection regulations (GDPR), cybersecurity directives (NIS2), and digital sovereignty requirements while providing centralized security services."/>

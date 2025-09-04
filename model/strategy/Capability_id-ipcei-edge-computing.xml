@@ -1,5 +1,0 @@
-<archimate:Capability
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Edge Computing Services"
-    id="id-ipcei-edge-computing"
-    documentation="Distributed edge computing capabilities bringing computational resources closer to end-users and IoT devices. Includes edge nodes, content caching, real-time processing, and 5G integration. Enables low-latency applications, autonomous systems, and smart city implementations across European regions while maintaining data locality and sovereignty."/>

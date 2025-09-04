@@ -1,5 +1,0 @@
-<archimate:Grouping
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Application Layer"
-    id="id-ipcei-application-layer"
-    documentation="The application services layer providing Software-as-a-Service (SaaS) solutions and business applications. This layer includes industry-specific applications, collaboration tools, productivity suites, and custom business applications that leverage the underlying platform and infrastructure capabilities while ensuring European data protection and regulatory compliance."/>

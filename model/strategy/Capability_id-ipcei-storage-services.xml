@@ -1,0 +1,5 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Storage Services"
+    id="id-ipcei-storage-services"
+    documentation="Comprehensive data storage capabilities including block storage, object storage, file systems, and backup services. Provides data persistence, high availability, disaster recovery, and data lifecycle management across multiple European data centers with GDPR compliance and data sovereignty guarantees."/>

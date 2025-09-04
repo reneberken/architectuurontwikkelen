@@ -1,0 +1,5 @@
+<archimate:Capability
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compute Services"
+    id="id-ipcei-compute-services"
+    documentation="Core compute capabilities providing virtualized processing resources including virtual machines, containers, and serverless functions. This capability enables elastic scaling of computational resources across the European cloud infrastructure, supporting various workload types from high-performance computing to edge computing scenarios."/>
